@@ -16,7 +16,7 @@ const api = "https://to-dos-api.softclub.tj/api/to-dos";
 
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
-  // Убираем валидацию description и images
+ 
 });
 
 const CaseStudies = () => {
@@ -111,7 +111,7 @@ const CaseStudies = () => {
         <Formik
           initialValues={{
             name: editItem?.name || '',
-            // description и images убраны из формы
+         
           }}
           validationSchema={validationSchema}
       onSubmit={async (values, { resetForm }) => {
