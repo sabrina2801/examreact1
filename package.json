@@ -11,12 +11,18 @@
   },
   "dependencies": {
     "@mui/material": "^7.2.0",
+    "@react-spring/web": "^10.0.1",
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.11.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^12.23.10",
+    "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.1",
-    "tailwindcss": "^4.1.11"
+    "react-transition-group": "^4.4.5",
+    "tailwindcss": "^4.1.11",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
